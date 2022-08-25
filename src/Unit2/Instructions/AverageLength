@@ -1,0 +1,23 @@
+Lab Average Length
+
+Description:
+Return the average length of the 2 or 3 string parameters passed in. Output should be a decimal.
+
+Hint:
+Provide an overloaded method in StrMath to implement the average length of three strings.
+
+Sample Input:
+dog cats
+aplus pigs
+catgiraffe apluscompsci
+ap aplus
+one two three
+abcd ab abc
+
+Sample Output:
+3.5
+4.5
+11.0
+3.5
+3.666666
+3.0

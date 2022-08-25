@@ -1,0 +1,26 @@
+Lab 2c6 math Line
+
+This lab was designed to teach parameter passing, value calculation, and output.
+
+Description:
+Complete the static method Line.slope to calculate the slope of a line when given 2 points.
+
+Submission:
+Screenshot of all unit tests
+Screenshot of example of console output
+
+Sample Input:
+1 9 14 2
+1 7 18 3
+6 4 2 2
+4 4 5 3
+1 1 2 9
+1 7 2 9
+
+Sample Output:
+Slope is :: -0.54
+Slope is :: -0.24
+Slope is :: 0.50
+Slope is :: -1.00
+Slope is :: 8.00
+Slope is :: 2.00

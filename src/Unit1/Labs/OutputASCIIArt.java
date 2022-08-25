@@ -1,4 +1,4 @@
-package Unit1;
+package Unit1.Labs;
 
 public class OutputASCIIArt {
     public static void main(String[] args)

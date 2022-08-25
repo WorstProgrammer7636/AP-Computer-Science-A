@@ -1,4 +1,4 @@
-package Unit1;
+package Unit1.Labs;
 
 // write hello world and your name to the console
 // see instructions.md for directions

@@ -1,0 +1,35 @@
+Lab 2c6 math Distance
+This lab was designed to teach parameter passing, value calculation, and output.
+
+Description:
+Complete the static methods in Main.java to calculate the distance between 2 points. Write a simple UI to test the methods.
+
+You must implement the static methods according to the directions below (see comments in code):
+
+  // given two integers x and y. returns the difference x-y
+  public static int difference(int x, int y)
+  {
+  }
+
+  // given an integer x returns the square
+  //  do not use multiplication - use Math.pow
+  public static int square(int x)
+  {
+  }
+
+  // given two points on a plane, returns the distance between them
+  //  You MUST call the methods difference and square above
+  //  You CANNOT use subtraction and multiplication in this mehthod
+  public static double distance(int x1, int y1, int x2, int y2)
+  {
+  }
+Submission:
+Screenshot of all unit tests
+Screenshot of example of console output
+
+Sample Input/Output:
+Enter x1: 8
+Enter y1: 9
+Enter x2: 2
+Enter y2: 4
+The distance between (8,9) and (2,4) is 7.810249675906654
