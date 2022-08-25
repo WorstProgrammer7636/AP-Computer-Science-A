@@ -1,2 +1,3 @@
 # AP-Computer-Science-A
-# AP-Computer-Science-A
+
+*This repository is an upload of my projects/labs

@@ -1,0 +1,34 @@
+Lab1b variables
+Goal
+This lab was designed to teach you how to define and output a variable.
+
+Description
+Define and print some variables.
+
+Sample Output
+/////////////////////////////////
+*Some Person 07/18/02*
+* *
+* integer types *
+* *
+*8 bit - byteOne = 127 *
+*16 bit - shortOne = -32123 *
+*32 bit - intOne = 90877 *
+*64 bit - longOne = 999999999 *
+* *
+* floating point types *
+* *
+*32 bit - floatOne = 38.5678 *
+*64 bit - doubleOne = 923.234 *
+* *
+* character *
+* *
+*16 bit - charOne = A *
+* *
+* boolean *
+* *
+*booleanOne = true *
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+Submission
+Screenshot of console output

@@ -1,0 +1,40 @@
+Lab1a output ascii art
+Goal
+This lab was designed to teach you how to use print and println to write text to the console window.
+
+Description
+Draw a creature/animal using ASCII art.
+
+Sample Output
+name
+date
+
+This thing can be whatever-u-want-it-to-be!
+
+        \         /
+          \      /
+        #############
+        ##  -- --  ##
+        ##  {@@}   ##
+        ##         ##
+        ##   <>    ##
+        ##   ___   ##
+        ##    VV   ##
+          #########
+        ##   ___   ##
+        ##         ##
+          #########
+          #########
+        ##   ___   ##
+        ##         ##
+          #########
+
+HelpFul Hints
+
+\\ draws one backslash on the screen!
+
+\" draws one double quote on the screen!
+
+\' draws one single quote on the screen!
+Submission
+Screenshot of example of console output

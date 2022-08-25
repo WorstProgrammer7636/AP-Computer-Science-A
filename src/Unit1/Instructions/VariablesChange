@@ -1,0 +1,30 @@
+Lab1x1 variables Change
+
+Goal:
+Learn how to use the division and modulo operators and input an integer
+
+Description:
+Fill in the missing code to first ask the user to input a number of cents.
+Then calculate the exact change with the least number of coins for the given number of cents.
+Use intermediate variables to help your calculation.
+
+Submission
+
+1. Screenshot of all unit tests
+2. Screenshot of example of console output
+
+Sample Input:
+
+137
+19
+74
+
+
+Sample Output:
+
+Total cents is: 137
+Change: 5 quarters, 1 dimes, 0 nickels, 2 pennies.
+Total cents is: 19
+Change: 0 quarters, 1 dimes, 1 nickels, 4 pennies.
+Total cents is: 74
+Change: 2 quarters, 2 dimes, 0 nickels, 4 pennies.
