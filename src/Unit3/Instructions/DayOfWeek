@@ -1,0 +1,20 @@
+Lab 3x1 elseif Day of the Week
+This lab was designed to teach you more if else if statements.
+
+Description
+Write a program that outputs the day of the week for a given date! You program has just the main method and the dayOfWeek method below.
+Given the month, m, day, d and year y, the day of the week (Sunday = 0, Monday = 1, …, Saturday = 6) D is given by:
+
+Failed to load "assets/dayoweek.png"
+
+Note : Division is integer division and mod is the % operator
+
+Submission
+Screenshot of all unit tests
+Screenshot of example of console output
+
+Sample Input/Output
+Enter month: 10
+Enter day: 15
+Enter year: 2019
+Day of the week: Tuesday

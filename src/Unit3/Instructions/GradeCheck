@@ -1,0 +1,24 @@
+Lab
+This lab was designed to teach you more about if statements, if else statements, and if else if else statements. You will create a Grade class. You will instantiate a Grade object and pass the object a parameter that you want to check. The Grade object will provide the letter grade value of the numeric grade provided.
+
+Description
+Take a number and calculate its letter grade.
+A is >= 89.5 B is >= 79.5 and < 89.5 C is >= 69.5 and < 79.5 D is >= 59.5 and < 69.5 F is < 59.5
+
+Submission
+Screenshot of all unit tests
+Screenshot of example of console output
+
+Test Input
+78
+92.5
+31
+89.5
+89.49
+
+Test Output
+78 is a C
+92.5 is a A
+31 is a F
+89.5 is a A
+89.49 is a B

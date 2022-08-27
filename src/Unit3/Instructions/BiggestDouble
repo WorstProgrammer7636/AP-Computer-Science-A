@@ -1,0 +1,36 @@
+Lab 3c2 boolean Biggest Double
+The lab was designed to teach you how to use &&, ||, and !.
+
+Description
+Compare four doubles to see which is the biggest.
+
+Submission
+Screenshot of all unit tests
+Screenshot of example of console output
+
+Test Input
+4.5 6.7 7.8 9.0
+14.51 6.17 71.8 1.0
+41.15 816.7 17.8 19.0
+884.5 16.7 7.8 9.0
+4.5 -456.7 677.8 9.0
+4.5 16.7 -7.8 -9.0
+
+Test Output
+4.5 6.7 7.8 9.0
+biggest = 9.0
+
+14.51 6.17 71.8 1.0
+biggest = 71.8
+
+41.15 816.7 17.8 19.0
+biggest = 816.7
+
+884.5 16.7 7.8 9.0
+biggest = 884.5
+
+4.5 -456.7 677.8 9.0
+biggest = 677.8
+
+4.5 16.7 -7.8 -9.0
+biggest = 16.7

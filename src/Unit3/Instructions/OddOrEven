@@ -1,0 +1,49 @@
+Lab 3a-ifs Odd or Even
+This lab was designed to teach you how to use if statements.
+
+Description
+Write a program that reads in a number and determines if that number is even or odd. An even number has a remainder of zero when being divided by two. An odd number is any number that does not have a remainder of zero when being divided by two.
+
+Hints
+Use %
+3%2==1
+4%2==0 7%2==1 10%2==0
+
+Submission
+Screenshot of all unit tests
+Screenshot of example of console output
+
+Test Data
+111
+2000
+-99
+1111
+-850
+
+Test Output
+111 is odd :: true
+111 is even :: false
+
+2000 is odd :: false
+2000 is even :: true
+
+-99 is odd :: true
+-99 is even :: false
+
+1111 is odd :: true
+1111 is even :: false
+
+-850 is odd :: false
+-850 is even :: true
+
+Example code
+int x = 90;
+int y = 0;
+
+if (x>50) {
+  y=22;
+}
+
+if (x<=50){
+  y=44;
+}
