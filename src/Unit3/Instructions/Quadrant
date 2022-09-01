@@ -1,0 +1,14 @@
+quadrant
+
+Directions
+Write a static method quadrant in Main that accepts a pair of real numbers x and y and returns the quadrant for that point:
+
+Failed to load "assets/quad.png"
+
+If x or y are zero the result should be zero.
+
+Tests
+Make sure you pass all unit tests.
+
+Examples
+quadrant(-4.2, 17.3) returns 2
