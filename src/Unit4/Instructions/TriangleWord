@@ -1,0 +1,56 @@
+Lab - Triangle Words
+This lab was designed to teach you how to use nested loops.
+
+Description
+Use nested loops to print out a triangle word pattern. For example if the word is:
+
+hello
+
+Then the output should be:
+
+    h
+   e e
+  l   l
+ l     l
+ollehello
+
+Note, there are no spaces at the end of each line, so your algorithm must account for that. This algorithm is challenging and requires nested loops to implement.
+
+Input
+WoW
+Ben
+Sammy
+WILE
+hellothere
+
+Output:
+
+  W
+ o o
+WoWoW
+
+  B
+ e e
+neBen
+
+    S
+   a a
+  m   m
+ m     m
+ymmaSammy
+
+   W
+  I I
+ L   L
+ELIWILE
+
+         h
+        e e
+       l   l
+      l     l
+     o       o
+    t         t
+   h           h
+  e             e
+ r               r
+erehtollehellothere

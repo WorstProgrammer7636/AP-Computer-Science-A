@@ -1,0 +1,41 @@
+Lab - Decreasing Word
+This lab was designed to teach you how to use for loops and how to make pretty shapes.
+
+Description
+Output a word in a fancy triangle. Use substring to print out smaller sections of the word.
+
+Hints
+  for loop i = length-1     down to 0**
+    println substrings
+
+Input
+hippo
+abcd
+it
+a
+chicken
+
+Output
+hippo
+hipp
+hip
+hi
+h
+
+abcd
+abc
+ab
+a
+
+it
+i
+
+a
+
+chicken
+chicke
+chick
+chic
+chi
+ch
+c
