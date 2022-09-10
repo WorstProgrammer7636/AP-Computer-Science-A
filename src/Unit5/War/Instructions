@@ -1,0 +1,33 @@
+Lab5x2 - War
+Description
+Design a game of war to using Card you created in Lab5x1. The game compares two cards and the winner is determined based on the following scale highest to lowest value:
+
+Ace is the highest and beats all other cards followed in order by King, Queen, Jack then numeric order 10-2 If the cards have the same value indiate that it is a tie
+
+Keep track of the score of all War games with static variables and print out the score at the end using toString
+
+Input
+Create one War object:
+  Player 1: Mike
+  Player 2: Dan
+
+Play the game three times with the following cards:
+  KING of HEARTS / THREE of CLUBS
+  TWO of SPADES / JACK of DIAMONDS
+  ACE of SPADES / ACE of DIAMONDS
+
+Create another War object:
+  Player 1: Tom
+  Player 2: Jenny
+
+Play the game once more with:
+  TWO of CLUBS / THREE of HEARTS
+
+Print out the score with toString
+
+Output
+Mike has a KING of HEARTS & Dan has a THREE of CLUBS - Mike Wins the War!
+Mike has a TWO of SPADES & Dan has a JACK of DIAMONDS - Dan Wins the War!
+Mike has a ACE of SPADES & Dan has a ACE of DIAMONDS - The war ends in a tie!
+Tom has a TWO of CLUBS & Jenny has a THREE of HEARTS - Jenny Wins the War!
+War Score - Player 2 Wins - (player1:1, player2:2)
