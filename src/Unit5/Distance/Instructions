@@ -1,0 +1,32 @@
+Lab2e oop Distance
+This lab was designed to teach you more about output formatting, and the Math class.
+
+Description
+Determine the distance the between two points.
+
+The distance formula for (x1, y1) and (x2, y2) is:
+Failed to load "assets/disteq.png"
+
+Complete all the methods in the class including toString.
+
+Hint: Formating Output
+toString should format the distance with three decimal places.  You can do this using a format string:
+
+//printf is a void method
+System.out.printf("%.3f\n",9.541724);   //outs 9.542
+
+//format is a String return method
+System.out.println(String.format("%.3f",9.541724)); //outs 9.542
+
+Submission
+pass the unit tests
+
+Input
+1 1 2 1
+1 1 -2 2
+1 1 0 0
+
+Output
+distance == 1.000
+distance == 3.162
+distance == 1.414

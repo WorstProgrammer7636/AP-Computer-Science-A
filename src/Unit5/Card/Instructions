@@ -1,0 +1,23 @@
+Lab5x1 - Card
+
+Description
+You need to design and create a Card class that will represent a playing card.
+The Card class will have a face and a suit. The face will be represented by an int field, and the suit by a String field.
+
+Use the Scanner to get the name of the face of the card from the value see details in Card.java
+
+Input
+9 SPADES
+1 DIAMONDS
+4 CLUBS
+11 SPADES
+12 HEARTS
+13 CLUBS
+
+Output
+NINE of SPADES
+ACE of DIAMONDS
+FOUR of CLUBS
+JACK of SPADES
+QUEEN of HEARTS
+KING of CLUBS

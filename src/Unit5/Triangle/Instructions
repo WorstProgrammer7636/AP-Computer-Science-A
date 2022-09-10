@@ -1,0 +1,41 @@
+Lab 5a1 Triangle
+This lab was designed to teach you more about objects, input, output formatting, and the Math class.
+
+Description
+Calculate the area of a triangle given the values for all three sides.
+
+perimeter = a + b + c
+
+s = perimeter / 2
+
+area=sqrt(s(s–a)(s–b)(s–c))
+
+You must create a simple UI where the user can enter arbitrary sides. If the user enters 0 for side A, exit the program.
+
+Submission
+Pass the unit tests in replit
+
+Input
+3 3 3
+7 8 9
+10 9 11
+0
+
+Output
+Enter side A :: 3
+Enter side B :: 3
+Enter side C :: 3
+Triangle: 3x3x3, has area == 3.90
+
+Enter side A :: 7
+Enter side B :: 8
+Enter side C :: 9
+Triangle: 7x8x9, has area == 26.83
+
+Enter side A :: 10
+Enter side B :: 9
+Enter side C :: 11
+Triangle: 10x9x11, has area == 42.43
+
+Enter side A ::  0
+bye
