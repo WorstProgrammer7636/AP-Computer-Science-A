@@ -1,0 +1,13 @@
+Lab u7b3 Toys
+
+Description
+Frist, create a Toy class that stores a Toy name and a count for how many of that toy exist in the store. Second, create a program that will store a list of Toys and keep track of how many times a particular toy occurs. Write a method to return the Toy that occurs in the list most frequent and another method to sort the toys by count.
+
+You must implement all the methods in Toy and ToyStore and pass the unit tests.
+
+Sample Data
+sorry bat sorry sorry sorry train train teddy teddy ball ball
+
+Sample Output
+[sorry 4, bat 1, train 2, teddy 2, ball 2]
+max == sorry

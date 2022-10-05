@@ -1,0 +1,29 @@
+Lab 7b Number Analyzer
+
+Description
+Write a Number class that can analyse a single number. This class can tell if a number is isOdd or isPerfect.
+
+Hint: A number is perfect if it is equal to the sum of it's divisors e.g. 6 is perfect because it's divisors 1+2+3==6
+
+Then write a NumberAnalyzer class which takes a String of numbers and then uses the Number class to get information on the numbers.
+
+Sample Data
+5 12 9 6 1 4 8 6
+5 12 3 7 28 496 81 65 33 11
+1 2 3 4 5 6 7 8 11 13 151 16 17 18 19 20
+
+Sample Output
+[5, 12, 9, 6, 1, 4, 8, 6]
+odd count = 3
+even count = 5
+perfect count = 2
+
+[5, 12, 3, 7, 28, 496, 81, 65, 33, 11]
+odd count = 7
+even count = 3
+perfect count = 2
+
+[1, 2, 3, 4, 5, 6, 7, 8, 11, 13, 151, 16, 17, 18, 19, 20]
+odd count = 9
+even count = 7
+perfect count = 1

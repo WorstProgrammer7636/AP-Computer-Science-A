@@ -1,0 +1,32 @@
+Lab 7a8 Get Last
+
+Description
+This lab was designed to teach you more about lists. You will need to use a variable, if statement, and a loop. Write a program that return a new list containing all values from a given list that are greater than the last value. If the given list is empty, return an empty list. If there are no values in the given list greater than the last value, return an empty list.
+
+Sample Input
+[-99,1,2,3,4,5,6,7,8,9,10,5]
+[10,9,8,7,6,5,4,3,2,1,-99]
+[10,20,30,40,50,-11818,40,30,20,10]
+[32767]
+[255,255]
+[9,10,-88,100,-555,2]
+[10,10,10,11,456]
+[-111,1,2,3,9,11,20,1]
+[9,8,7,6,5,4,3,2,0,-2,6]
+[12,15,18,21,23,1000]
+[250,19,17,15,13,11,10,9,6,3,2,1,0]
+[9,10,-8,10000,-5000,-3000]
+
+Sample Output
+[6, 7, 8, 9, 10]
+[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+[20, 30, 40, 50, 40, 30, 20]
+[]
+[]
+[9, 10, 100]
+[]
+[2, 3, 9, 11, 20]
+[9, 8, 7]
+[]
+[250, 19, 17, 15, 13, 11, 10, 9, 6, 3, 2, 1]
+[9, 10, -8, 10000]
