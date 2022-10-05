@@ -1,0 +1,50 @@
+Lab6a14 - ROMAN NUMERALS
+
+Description
+In this program, you are to create a Roman Numeral class to handle roman numeral operations.
+
+How to convert a Roman Numeral to a standard base ten number
+
+Locate the first individual roman number in the roman number string. Sum up the numeric value of the individual number. Chop of the individual roman numeral from the string and continue the process if the string has more numbers left.
+
+How to convert a standard base ten number to a Roman Numeral
+
+Find the first Roman numeral less than the number. Add the roman numeral to a string. Subtract the value of the Roman Numeral from the number. Repeat this until the original number is less than the current Roman Numeral. Move to the next Roman Numeral in the list and repeat the process.
+
+Algorithm Help:
+{1000,900,500,400,100,90, 50,40,10,9,5,4,1}
+{"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"}
+
+// basic logic to convert an int to roman
+loop through the array of numbers
+  while orig num >= curr number
+    add roman to string
+    subtract curr number from orig
+
+Sample Data :
+10
+100
+1000
+2500
+1500
+23
+38
+49
+LXXVII
+XLIX
+XX
+XXXVII
+
+Sample Output :
+10 == X
+100 == C
+1000 == M
+2500 == MMD
+1500 == MD
+23 == XXIII
+38 == XXXVIII
+49 == XLIX
+LXXVII == 77
+XLIX == 49
+XX == 20
+XXXVIII == 38
