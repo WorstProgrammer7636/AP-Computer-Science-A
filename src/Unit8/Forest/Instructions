@@ -1,0 +1,87 @@
+Lab 8a16 Forest
+Description
+This lab was designed to teach you how to use a matrix, an array of arrays. Generate a forest grid and determine how many of the animals are trapped.
+An animal is trapped if it is surrounded by 5 or more rocks or trees that are size 10 or greater.
+
+Sample Data
+Generated randomly
+
+Sample Output
+Standard test run:
+
+cat x 17.66 rock i 26.47 tree p 5.40 cat a 34.30 rock e 21.90
+dog l 14.55 rock y 34.87 cat f 11.77 cat x 30.12 rock e 17.66
+dog h 17.05 tree z 25.58 tree m 15.99 rock z 22.39 cat o 11.90
+cat r 18.20 cat v 25.73 dog b 33.51 cat q 24.57 tree a 22.78
+cat v 15.97 dog r 18.75 tree e 12.47 rock y 23.26 dog n 19.87
+rock c 19.16 cat h 33.97 rock s 25.73 tree a 21.17 dog j 28.83
+rock a 14.80 dog q 29.78 tree j 11.52 tree e 26.63 rock e 28.24
+
+4
+
+cat x 17.66 rock i 26.47 tree p 5.40 cat a 34.30 rock e 21.90
+dog l 14.55 rock y 34.87 null cat x 30.12 rock e 17.66
+dog h 17.05 tree z 25.58 tree m 15.99 rock z 22.39 cat o 11.90
+cat r 18.20 cat v 25.73 null null tree a 22.78
+cat v 15.97 dog r 18.75 tree e 12.47 rock y 23.26 dog n 19.87
+rock c 19.16 null rock s 25.73 tree a 21.17 dog j 28.83
+rock a 14.80 dog q 29.78 tree j 11.52 tree e 26.63 rock e 28.24
+Other test runs:
+
+tree t 29.75 tree a 20.10 cat z 22.59 rock s 16.22 tree r 22.02
+rock m 21.56 rock b 12.15 dog a 9.54 dog r 13.65 dog x 27.16
+cat j 19.34 dog b 11.97 rock u 20.16 rock k 13.43 tree i 11.39
+dog n 34.36 rock i 12.85 cat j 24.18 dog x 32.22 dog h 25.63
+rock k 32.23 rock d 11.85 cat k 14.09 rock p 20.48 rock c 27.22
+dog j 34.78 dog x 30.03 cat t 13.46 tree a 15.64 dog y 7.80
+cat t 26.82 rock i 16.53 tree g 26.20 tree q 31.02 dog k 13.82
+
+5
+
+tree t 29.75 tree a 20.10 cat z 22.59 rock s 16.22 tree r 22.02
+rock m 21.56 rock b 12.15 null null dog x 27.16
+cat j 19.34 dog b 11.97 rock u 20.16 rock k 13.43 tree i 11.39
+dog n 34.36 rock i 12.85 null null dog h 25.63
+rock k 32.23 rock d 11.85 cat k 14.09 rock p 20.48 rock c 27.22
+dog j 34.78 dog x 30.03 null tree a 15.64 dog y 7.80
+cat t 26.82 rock i 16.53 tree g 26.20 tree q 31.02 dog k 13.82
+
+-------------------------------------------
+
+tree x 19.72 dog c 5.45 tree n 16.41 dog b 32.10 cat o 28.22
+rock y 26.53 rock a 12.42 rock n 22.00 cat w 15.03 dog y 27.58
+dog d 34.60 rock i 34.83 dog j 34.88 tree m 19.25 cat m 33.97
+tree e 16.03 rock f 34.04 rock a 20.10 cat p 5.85 cat w 32.68
+rock q 30.74 tree s 27.97 cat f 8.63 cat w 28.25 tree n 12.39
+cat q 33.41 tree q 26.20 tree k 11.02 rock t 19.47 tree l 18.08
+rock l 17.41 tree e 30.72 rock j 20.33 tree d 27.72 dog u 13.51
+
+6
+
+tree x 19.72 null tree n 16.41 dog b 32.10 cat o 28.22
+rock y 26.53 rock a 12.42 rock n 22.00 cat w 15.03 dog y 27.58
+null rock i 34.83 null tree m 19.25 cat m 33.97
+tree e 16.03 rock f 34.04 rock a 20.10 cat p 5.85 cat w 32.68
+rock q 30.74 tree s 27.97 null null tree n 12.39
+null tree q 26.20 tree k 11.02 rock t 19.47 tree l 18.08
+rock l 17.41 tree e 30.72 rock j 20.33 tree d 27.72 dog u 13.51
+
+-------------------------------------------
+
+cat t 9.77 cat h 18.05 rock s 13.90 cat v 7.44 cat t 11.45
+tree h 7.84 cat d 33.55 cat c 18.93 rock m 17.56 cat v 13.75
+rock e 8.35 cat e 16.16 tree w 32.12 dog i 13.68 dog m 8.55
+dog j 27.55 dog p 25.85 rock u 5.22 rock u 7.23 dog p 27.02
+rock c 18.62 dog k 28.22 cat t 21.64 dog g 22.47 rock v 13.08
+tree r 26.42 rock n 17.68 cat p 9.73 cat r 33.33 dog r 27.45
+dog m 22.55 tree r 13.89 tree u 26.77 dog x 29.44 cat l 7.84
+
+0
+
+cat t 9.77 cat h 18.05 rock s 13.90 cat v 7.44 cat t 11.45
+tree h 7.84 cat d 33.55 cat c 18.93 rock m 17.56 cat v 13.75
+rock e 8.35 cat e 16.16 tree w 32.12 dog i 13.68 dog m 8.55
+dog j 27.55 dog p 25.85 rock u 5.22 rock u 7.23 dog p 27.02
+rock c 18.62 dog k 28.22 cat t 21.64 dog g 22.47 rock v 13.08
+tree r 26.42 rock n 17.68 cat p 9.73 cat r 33.33 dog r 27.45
+dog m 22.55 tree r 13.89 tree u 26.77 dog x 29.44 cat l 7.84
