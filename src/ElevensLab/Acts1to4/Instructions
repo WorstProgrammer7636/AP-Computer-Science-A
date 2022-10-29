@@ -1,0 +1,18 @@
+Lab Elevens Part A - Card,Deck,Shuffle (Acts 1-4)
+Description
+The requirements for each activity are described in the ELSG and in the corresponding Activity Worksheet docs in Google Classroom.
+Note, the Activity Worksheet docs sometimes have extra requirements that are not in the ELSG.
+
+Submission
+Submit all code in this replit project
+Pass all Unit tests
+Complete the corresponding Activity Worksheets in Google Classroom
+cardtest
+Creates Cards and tests getter and matches methods works correctly.
+
+decktest
+Create a deck and test:
+
+correct number of cards are created
+deal method deals all the cards
+point values of all dealt cards add up to expected
