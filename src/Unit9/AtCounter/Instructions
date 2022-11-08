@@ -1,0 +1,39 @@
+Lab10a5 - At Counter
+Description
+The constructor should randomly load the characters '@' and '–' into the matrix. Take a provided row and col location and count how many @ signs connect to the original location. @ signs are connected if they are connected up, down, left, and right of one another.
+
+You MUST use a matrix. You MUST use recursion.
+
+Algorithm Help:
+ if ( r and c are in bounds and current spot is a @ )
+     mark spot as visited (don't worry about changing the matrix)
+     bump up current count by one
+     4 recursive calls up down left right
+Example:
+Assume this was randomly loaded in the constructor :
+
+@ - @ - - @ - @ @ @
+@ @ @ - @ @ - @ - @
+- - - - - - - @ @ @
+- @ @ @ @ @ - @ - @
+- @ - @ - @ - @ - @
+@ @ @ @ @ @ - @ @ @
+- @ - @ - @ - - - @
+- @ @ @ - @ - - - -
+- @ - @ - @ - @ @ @
+- @ @ @ @ @ - @ @ @
+If checking 0 0, you would find 5 @s are connected. If checking 9 7, you would find 6 @s are connected. If checking 0 1, you would find 0 @s are connected.
+
+Sample Data
+0 0
+2 5
+5 0
+9 9
+3 9
+
+Sample Output
+0 0 has 5 @s connected.
+2 5 has 0 @s connected.
+5 0 has 29 @s connected.
+9 9 has 6 @s connected.
+3 9 has 16 @s connected.
