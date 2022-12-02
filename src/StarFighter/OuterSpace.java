@@ -277,7 +277,7 @@ public class OuterSpace extends Canvas implements KeyListener, Runnable
         }
         if (e.getKeyCode() == KeyEvent.VK_SPACE)
         {
-            keys[4] = true;
+            keys[4] = false;
         }
         if (e.getKeyCode() == KeyEvent.VK_R){
             keys[5] = true;
@@ -305,7 +305,7 @@ public class OuterSpace extends Canvas implements KeyListener, Runnable
         }
         if (e.getKeyCode() == KeyEvent.VK_SPACE)
         {
-            keys[4] = false;
+            keys[4] = true;
         }
         if (e.getKeyCode() == KeyEvent.VK_R){
             keys[5] = false;
@@ -317,9 +317,6 @@ public class OuterSpace extends Canvas implements KeyListener, Runnable
     {
         //no code needed here
     }
-
-
-
 
     public void run()
     {
@@ -340,7 +337,7 @@ public class OuterSpace extends Canvas implements KeyListener, Runnable
         Timer timer = new Timer();
         @Override
         public void run(){
-            int delay = (new Random().nextInt(2)) * 750;
+            int delay = 150 + (new Random().nextInt(2)) * 650;
             timer.schedule(new Task(), delay);
             int ammoSpeed = 2; //ammo speed for testing
             if (alienShots.getList().size() <= 10){
@@ -384,5 +381,4 @@ public class OuterSpace extends Canvas implements KeyListener, Runnable
 
 
 }
-
 
